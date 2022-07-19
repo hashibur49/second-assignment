@@ -209,10 +209,54 @@ body{
     color: rgba(22, 22, 22, 0.7);
 }
 
- 
-
 /* Match Live Card Area Design End Here */
 
-
-
 /* Body Area Design End Here */
+
+/* Footer Area Design Start Here */
+#footer{
+    margin-top: 130px;
+    width: 1600px;
+    height: 444px;
+    background: #161616;
+    color: #fff;
+    text-align: center;
+}
+
+#footer h3{
+    padding-top: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 75%;
+
+}
+
+.footer-nav{
+    margin-top: 45px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    padding-left: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #B9B9B9;
+     
+}
+
+
+/* Footer Area Design End Here */
+
