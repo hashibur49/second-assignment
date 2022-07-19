@@ -140,6 +140,11 @@ body{
     font-size: 20px;
     line-height: 30px;
     border: none;
+    text-decoration: none;
+ }
+ .match-area-content button a{
+    text-decoration: none;
+    color: #161616;
  }
  /* Match Area Design End Here */
 
@@ -211,6 +216,51 @@ body{
 
 /* Match Live Card Area Design End Here */
 
+/* Upcomming Match area Design Start Here */
+.up-match-card{
+    width: 312px;
+    height: 282px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.flag-logo-area{
+    width: 312px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.up-match-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.up-match-card-content h4{
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+
+}
+
+.up-match-card-content p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+ 
+
+
+/* Upcomming Match area Design End Here */
+
 /* Body Area Design End Here */
 
 /* Footer Area Design Start Here */
@@ -253,8 +303,18 @@ body{
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'liga' off;
-    color: #B9B9B9;
-     
+    color: #B9B9B9;  
+}
+
+.top-social{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top-social a{
+    color: #fff;
+    
+    margin-left: 10px;
 }
 
 
