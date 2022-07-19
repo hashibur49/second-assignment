@@ -256,10 +256,29 @@ body{
     line-height: 20px;
 }
 
- 
-
-
 /* Upcomming Match area Design End Here */
+
+/* All Group area Design Start Here */
+
+.group-name-card{
+    width: 312px;
+    height: 282px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    text-align: center;
+}
+.group-name-logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.group-name-card h4{
+    margin: 10px;
+}
+
+/* All Group area Design End Here */
+
 
 /* Body Area Design End Here */
 
