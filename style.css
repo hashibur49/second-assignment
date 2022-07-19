@@ -144,11 +144,16 @@ body{
  /* Match Area Design End Here */
 
 /* Match Live Card Area Design Start Here */
-
+.match-live-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 .match-live-card{
     width: 312px;
     height: 362px;
     border: 2px solid #E8E8E8;
+    border-radius: 10px;
 }
 
 .card-icon{
@@ -180,6 +185,28 @@ body{
     color: #161616;
     border: 1px solid #161616;
     border-radius: 5px;
+}
+
+.match-live-card-content p{
+    width: 272px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+
+.card-icon p{
+    width: 26px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
 }
 
  
