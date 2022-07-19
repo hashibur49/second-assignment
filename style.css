@@ -44,6 +44,8 @@ body{
 
 /* Common Css End Here */
 
+
+
 /* Top Banner Area Design Start Here */
 #top-banner{
     margin-top: 50px;
@@ -98,3 +100,92 @@ body{
 }
 
 /* Top Banner Area Design End Here */
+
+
+/* Body Area Design Start Here */
+
+#body{
+    margin-top: 130px;
+}
+
+.body-area{
+    display: flex;
+} 
+
+/* Match Area Design Start Here */
+.match-area{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+
+.match-area-content{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-around;
+    flex-direction: column;
+    height: 312px;
+ }
+
+.match-area-content button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+ }
+ /* Match Area Design End Here */
+
+/* Match Live Card Area Design Start Here */
+
+.match-live-card{
+    width: 312px;
+    height: 362px;
+    border: 2px solid #E8E8E8;
+}
+
+.card-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card-icon img{
+    padding-right: 15px;
+}
+
+.match-live-card-content{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.match-live-card-content a{
+    width: 100px;
+    height: 32px;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+
+ 
+
+/* Match Live Card Area Design End Here */
+
+
+
+/* Body Area Design End Here */
