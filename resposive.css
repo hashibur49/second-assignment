@@ -1,0 +1,17 @@
+
+/* Mobile Design Start Here */
+@media screen and (max-width:577px) 
+            
+{
+    
+
+    .container .top-banner-area{
+        flex-direction: column;
+        height: auto;
+    }
+    .top-banner-area .top-banner-content {
+        padding-left: 0;
+        text-align: center;   
+    }
+    
+}
