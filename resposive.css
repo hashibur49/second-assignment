@@ -4,7 +4,7 @@
             
 {
     
-
+    /* Banner area Responsive Start Here */
     .container .top-banner-area{
         flex-direction: column;
         height: auto;
@@ -13,5 +13,66 @@
         padding-left: 0;
         text-align: center;   
     }
-    
+
+    /* Banner area Responsive End Here */
+
+    /* Body area Responsive Start Here */
+    .container .body-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .top-banner-area .top-banner-img img{
+       width: 100%;
+    }
+
+
+    .body-area .match-area{
+        width: 100%;
+        background: none;
+    }
+
+    .body-area .match-live-card , .body-area .up-match-card , .body-area .group-name-card{
+        width: 100%;
+        height: auto;
+    }
+
+    .body-area .up-match-card {
+        height: 212px;
+    }
+
+
+
+    .body-area .match-live-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Body area Responsive End Here */
+
+    /* Footer area responsive Start Here */
+    #footer{
+        height: auto;
+    }
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        background-color: #0000;
+    }
+     
+
+    /* Footer area responsive Ed Here */
+
+
+    /* View all Button */
+    #view-all-btn{
+        visibility: hidden;
+    }
 }
+
+/* Mobile Design End Here */

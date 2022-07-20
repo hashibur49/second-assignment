@@ -109,7 +109,9 @@ body{
 }
 
 .body-area{
-    display: flex;
+    display: grid;
+    grid-template-columns: 312px repeat(1,1fr);
+    gap: 20px;
 } 
 
 /* Match Area Design Start Here */
@@ -152,8 +154,7 @@ body{
 .match-live-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    width: 80%;
+    grid-gap: 10px;
 }
 .match-live-card{
     width: 312px;
@@ -311,7 +312,6 @@ body{
 #footer hr{
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 75%;
-
 }
 
 .footer-nav{
@@ -337,7 +337,6 @@ body{
 
 .top-social a{
     color: #fff;
-    
     margin-left: 10px;
 }
 
