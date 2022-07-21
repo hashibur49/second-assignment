@@ -288,6 +288,9 @@ body{
 
 /* Body Area Design End Here */
 
+
+ 
+
 /* Footer Area Design Start Here */
 #footer{
     margin-top: 130px;
@@ -342,4 +345,9 @@ body{
 
 
 /* Footer Area Design End Here */
+
+#view-all-btn{
+    visibility: hidden;
+    margin-top: 25px;
+ }
 

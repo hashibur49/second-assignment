@@ -1,6 +1,6 @@
 
 /* Mobile Design Start Here */
-@media screen and (max-width:577px) 
+@media screen and (max-width:576px)
             
 {
     
@@ -12,6 +12,13 @@
     .top-banner-area .top-banner-content {
         padding-left: 0;
         text-align: center;   
+    }
+
+    .container .top-banner-area .top-banner-content h1{
+        width: auto;
+        font-size: 80px;
+        line-height: 70px;
+        
     }
 
     /* Banner area Responsive End Here */
@@ -55,7 +62,8 @@
 
     /* Footer area responsive Start Here */
     #footer{
-        height: auto;
+        height: 100%;
+        background-color: #0000;
     }
     .footer-nav{
         display: flex;
@@ -76,3 +84,76 @@
 }
 
 /* Mobile Design End Here */
+@media screen and (min-width:576px) and (max-width:992px){
+
+    /* Banner area Responsive Start Here */
+    
+     
+    .container .top-banner-area .top-banner-content h1{
+        width: auto;
+        font-size: 80px;
+        line-height: 60px;
+        
+    }
+
+    .top-banner-area .top-banner-content {
+        padding-left: 10px;     
+    }
+
+    .top-banner-area .top-banner-img img{
+        width: 100%;
+     }
+
+    /* Banner area Responsive End Here */
+
+
+    /* Body area Responsive Start Here */
+
+    .container .body-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+    }
+
+    .body-area .match-area{
+        width: 100%;
+        background: none;
+        height: 200px;
+    }
+
+    .body-area .match-area .match-area-content{
+        display: flex; 
+         flex-direction: row;
+     }
+
+     .body-area .match-live-area{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+    }
+    .body-area .match-live-area .match-live-card{
+        width:auto;
+        height: auto;
+    }
+
+    /* Body area Responsive End Here */
+
+    /* View all Button */
+    #view-all-btn{
+       visibility: visible;
+       margin-top: 25px;
+    }
+    
+}
+
+/* Large Device Design End Here */
+@media screen and (min-width:993px) and (max-width:1900px){
+
+    #view-all-btn{
+        visibility: hidden;
+        margin-top: 25px;
+     }
+
+}
+
