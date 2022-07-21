@@ -144,7 +144,10 @@
         grid-template-columns: repeat(2, 1fr);
         margin: 10px;
     }
-    .body-area .match-live-area .match-live-card{
+    .body-area .match-live-area .match-live-card , 
+    .body-area .match-live-area .up-match-card ,
+    .body-area .match-live-area .group-name-card
+     {
         width:auto;
         height: auto;
     }

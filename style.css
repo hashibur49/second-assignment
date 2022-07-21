@@ -49,6 +49,7 @@ body{
 /* Top Banner Area Design Start Here */
 #top-banner{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .top-banner-area{
     background-color: #161616;
@@ -288,10 +289,13 @@ body{
 
 /* Body Area Design End Here */
 
-#view-all-btn{
+
+ /* View all Button */
+ #view-all-btn{
     visibility: hidden;
     margin-top: 25px;
  }
+
  
 
 /* Footer Area Design Start Here */
